@@ -175,6 +175,7 @@ div#cabecera div.depto.ejemplo_titulo {
 #titulo_stack{
     float:left;
     color:white;
+    font-size: 2em;
     margin-top: 50px;
     margin-left:25px;
 }
