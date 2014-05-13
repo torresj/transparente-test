@@ -59,6 +59,7 @@ span.separador_enlaces {
     display: none;
 }
 
+
 /*****************/
 /* Cabecera gral */
 /*****************/
@@ -356,6 +357,12 @@ div#banners {
     background-color: #FFFFFF;
     border-color: #B2B2B4;
     border-style: solid;
+}
+
+.texto_banner{
+    color:white;
+    padding-top: 10px;
+
 }
 
 /************/
