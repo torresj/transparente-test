@@ -58,19 +58,32 @@
       "texto":"El portal de Transparencia de la Universidad de Granada es un esfuerzo por publicar y facilitar el acceso a sus datos"
     },
 
-  "ugr":
+  "personal":
     {
-      "nombre":"UGR"
+      "nombre":"Personal",
+      "plantilla":"personal",
+      "texto":"Los datos de personal no estan disponibles aún. Disculpe las molestias" 
     },
 
-  "infEconomica":
+  "infoEco":
     {
-      "nombre":"Información Económica"
+      "nombre":"Información Económica",
+      "plantilla":"infoEco",
+      "texto":"Los datos económicos no estan disponibles aún. Disculpe las molestias" 
     },
 
-  "alumnos":
+  "ofertaYdemanda":
     {
-      "nombre":"Alumnos"
+      "nombre":"Oferta y Demanda Académica",
+      "plantilla":"ofYde",
+      "texto":"Los datos de oferta y demanda académica no estan disponibles aún. Disculpe las molestias" 
+    },
+
+  "claustro":
+    {
+      "nombre":"Claustro",
+      "plantilla":"claustro",
+      "texto":"Los datos del claustro no estan disponibles aún. Disculpe las molestias" 
     },
 
   "error":

@@ -40,6 +40,10 @@ if ('development' == app.get('env')) {
 
 app.get('/', index.index);
 app.get('/index.html', index.index);
+app.get('/personal.html',administracion.personal);
+app.get('/infoEconomica.html',administracion.infoEco);
+app.get('/ofertaYdemanda.html',docencia.ofertaYdemanda);
+app.get('/claustro.html',docencia.claustro);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
