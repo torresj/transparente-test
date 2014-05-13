@@ -266,6 +266,7 @@ div#rastro a {
 div#rastro a.first {
     padding-left: 27px;
     background: url("../img/general/rastro-enlace.png") no-repeat scroll 12px center transparent;
+    color:black;
 }
 div#rastro ul#rastro_breadcrumb {
     margin-top: -4px;
