@@ -28,8 +28,19 @@ exports.ofertaYdemanda = function(req, res){
   res.render(ofYde.plantilla, { seccion: ofYde.nombre , texto: ofYde.texto});
 };
 
+
+// Gestión de la pagina de claustro
+
 exports.claustro = function(req, res){
   var claustro=conf.config.claustro;
   res.render(claustro.plantilla, { seccion: claustro.nombre , texto: claustro.texto});
 };
+
+// Gestión de la pagina de alumnos
+
+exports.alumnos = function(req, res){
+  var alumnos=conf.config.alumnos;
+  res.render(alumnos.plantilla, { seccion: alumnos.nombre , texto: alumnos.texto});
+};
+
 

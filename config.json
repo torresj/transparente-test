@@ -3,6 +3,7 @@
   "index":
     {
       "nombre":"Inicio",
+      "plantilla":"index",
       "enlaces":[
         {
           "nombre":"Personal",
@@ -45,11 +46,6 @@
           "id":"en_gobierno"
         },
         {
-          "nombre":"Satisfacción de los alumnos",
-          "href":"satisfaccion.html",
-          "id":"en_satisfaccion"
-        },
-        {
           "nombre":"Resultados",
           "href":"resultados.html",
           "id":"en_resultados"
@@ -84,6 +80,41 @@
       "nombre":"Claustro",
       "plantilla":"claustro",
       "texto":"Los datos del claustro no estan disponibles aún. Disculpe las molestias" 
+    },
+
+  "alumnos":
+    {
+      "nombre":"Alumnos",
+      "plantilla":"alumnos",
+      "texto":"Los datos de los alumnos no estan disponibles aún. Disculpe las molestias" 
+    },
+
+  "mision":
+    {
+      "nombre":"Misión",
+      "plantilla":"mision",
+      "texto":"Los datos sobre la mision de la UGR no estan disponibles aún. Disculpe las molestias" 
+    },
+
+  "planEstrategico":
+    {
+      "nombre":"Plan Estratégico",
+      "plantilla":"planEstrategico",
+      "texto":"Los datos sobre el plan estratégico de la UGR no estan disponibles aún. Disculpe las molestias" 
+    },
+
+  "gobierno":
+    {
+      "nombre":"Gobierno",
+      "plantilla":"gobierno",
+      "texto":"Los datos sobre el gobierno de la UGR no estan disponibles aún. Disculpe las molestias" 
+    },
+
+  "resultados":
+    {
+      "nombre":"Resultados",
+      "plantilla":"resultados",
+      "texto":"Los datos sobre los resultados de la UGR no estan disponibles aún. Disculpe las molestias" 
     },
 
   "error":

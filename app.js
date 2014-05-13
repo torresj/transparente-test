@@ -38,12 +38,24 @@ if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
 
+//index
 app.get('/', index.index);
 app.get('/index.html', index.index);
+
+//administracion
 app.get('/personal.html',administracion.personal);
 app.get('/infoEconomica.html',administracion.infoEco);
+
+//docencia
 app.get('/ofertaYdemanda.html',docencia.ofertaYdemanda);
 app.get('/claustro.html',docencia.claustro);
+app.get('/alumnos.html',docencia.alumnos);
+
+//Gestion e investigación
+app.get('/mision.html',gei.mision);
+app.get('/planEstrategico.html',gei.planEstrategico);
+app.get('/gobierno.html',gei.gobierno);
+app.get('/resultados.html',gei.resultados);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
