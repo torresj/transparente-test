@@ -20,7 +20,7 @@ a, #texto_enlaceugr{
 }
 
 a:hover, #texto_enlaceugr:hover {
-    color: #DD3B15;
+    color: #1D0D94;
 }
 
 a, a:hover, a:visited, a:active,#texto_enlaceugr, #texto_enlaceugr:visited, #texto_enlaceugr:active,#texto_enlaceugr:hover {
