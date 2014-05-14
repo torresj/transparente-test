@@ -172,22 +172,18 @@ div#cabecera div.depto.ejemplo_titulo {
     background-image: url("../img/general/cabecera-departamento.png");
 }
 
-#titulo_stack{
-    float:left;
-    color:white;
-    font-size: 2em;
-    margin-top: 50px;
-    margin-left:25px;
-}
-
 div#cabecera div.depto.ejemplo_completo {
     background-image: url("../img/general/cabecera-departamento_OLD.png");
 }
 
 div#cabecera div.depto a {
-    text-indent: -9999em;
+    float:left;
+    color:white;
+    font-size: 1em;
+    margin-top: 50px;
+    margin-left:25px;
 }
-div#cabecera a#enlace_stack {
+div#cabecera{
     display: block;
     height: 138px;
     margin-top: -13px;
@@ -1116,7 +1112,7 @@ div.mod-banners ul li.dont_showtext a.banner * {
     text-indent: -9999em;
 }
 div.mod-banners ul li a.banner {
-    background-color: #FFFFFF;
+    background-color: black;
     background-position: 0 0;
 }
 div.mod-banners ul li a.banner strong {
@@ -1824,6 +1820,10 @@ li.model-resaltado-02 a.banner:hover {
 }
 
 
+.content_doku p{
+    font-size: 1.2em;
+}
+
 /*********************/
 /****** index ********/
 /*********************/
@@ -1835,9 +1835,9 @@ li.model-resaltado-02 a.banner:hover {
     font-weight: bold;
     width: 100px;
     height: 100px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    border:thin outset grey;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    border:medium outset white;
     background-image: url("../imagenes/ugr.jpg");
 
 }
