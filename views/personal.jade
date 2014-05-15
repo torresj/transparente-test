@@ -83,4 +83,32 @@ block content
 
 			div(id="contenido", class="sec_interior")
 				.content_doku
-					p #{texto}
+					h1
+						a(id="__doku_encabezado_de_primer_nivel", name="__doku_encabezado_de_primer_nivel") #{encabezado1}
+
+					.level1
+						p #{texto1}
+
+					table.inline
+						tbody
+							tr
+								th.centeralign Descripción 
+								th.centeralign Datos en Opendata 
+								th.centeralign Archivo
+
+							
+							each dato in datos
+
+								tr
+									td(class="centeralign par") #{dato.nombre}
+									td(class="centeralign impar") 
+									td(class="centeralign par") 
+										a(href="#{dato.descarga}")
+											img(class="save",src="imagenes/save.png", alt="save")
+
+					h1
+						a(id="__doku_encabezado_de_primer_nivel", name="__doku_encabezado_de_primer_nivel") #{encabezado2}
+
+					.level1
+						p #{texto2}		
+

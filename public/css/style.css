@@ -1819,6 +1819,12 @@ li.model-resaltado-02 a.banner:hover {
 }
 
 
+
+/*********************/
+/****** index ********/
+/*********************/
+
+
 .grupos{
     font-size: 1em;
 }
@@ -1830,6 +1836,11 @@ li.model-resaltado-02 a.banner:hover {
 
 .content_doku p{
     font-size: 1.2em;
+}
+
+.save{
+    width: 30px;
+    height: 30px;
 }
 
 /*********************/
