@@ -344,6 +344,14 @@ div#pie p#pie_credits_img {
     width: 103px;
 }
 
+div#pie a#WAI{
+    position: relative;
+    top:100px;
+    left:-20px;
+    background-image: none;
+    background: none;
+}
+
 /************/
 /* BANNERS  */
 /************/
