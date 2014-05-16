@@ -93,7 +93,8 @@ block content
 						tbody
 							tr
 								th.centeralign Descripción 
-								th.centeralign Datos en Opendata 
+								th.centeralign Datos en Opendata
+								th.centeralign Ver 
 								th.centeralign Archivo
 
 							
@@ -102,7 +103,12 @@ block content
 								tr
 									td(class="centeralign par") #{dato.nombre}
 									td(class="centeralign impar") 
-									td(class="centeralign par") 
+										a(href="#{dato.url}",target="_blank")
+											img(class="link",src="imagenes/link.png", alt="link")
+									td(class="centeralign par")
+										a(href="#")
+											img(class="link",src="imagenes/view.png", alt="view")
+									td(class="centeralign impar") 
 										a(href="#{dato.descarga}")
 											img(class="save",src="imagenes/save.png", alt="save")
 
